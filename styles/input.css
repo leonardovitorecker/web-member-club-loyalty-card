@@ -1,0 +1,36 @@
+#search-id-card {
+    background: url('../assets/icon/buttonSearchIcon.svg') no-repeat right 15px center;
+    background-size: 30px 30px;
+    position: absolute;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    height: 3rem;
+    width: 25rem;
+    border-radius: 0.7rem;
+    border: 1px solid #CECACD;
+    padding: 0 1rem;
+    font-size: 0.87rem;
+    color: #1f2523;
+    background-color: transparent;
+    outline: none;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    left: calc(50% - 400px/2);
+}
+
+input::placeholder {
+    color: #4d5c57;
+}
+
+input:focus {
+    border: 1.5px solid #1f8459;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+input[type="search"]::-moz-search-clear {
+    display: none;
+}
